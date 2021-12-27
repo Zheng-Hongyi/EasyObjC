@@ -1,0 +1,27 @@
+PODS:
+  - EasyObjC (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - EasyObjC (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  EasyObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyObjC: 1a45771fa466a72a0ea4f7a9f2944fe0b9381abe
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 33b4583439c3b90d1e877686f1a199572b6b22e4
+
+COCOAPODS: 1.11.2
