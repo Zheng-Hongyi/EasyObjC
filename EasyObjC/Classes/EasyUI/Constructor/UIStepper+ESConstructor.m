@@ -36,7 +36,7 @@
     return result;
 }
 
-+ (UIStepper *)es_createWithContinuous:(BOOL)continuous autorepeat:(BOOL)autorepeat wraps:(BOOL)wraps value:(double)value minimumValue:(double)minimumValue maximumValue:(double)maximumValue stepValue:(double)stepValue normalBackgroundImage:(UIImage *)nImage normalDividerImage:(UIImage *)nDividerImage normalIncrementImage:(UIImage *)nIncrementImage normalDecrementImage:(UIImage *)nDecrementImage otherStylesCall:(void (^)(UISwitch * _Nonnull))call {
++ (UIStepper *)es_createWithContinuous:(BOOL)continuous autorepeat:(BOOL)autorepeat wraps:(BOOL)wraps value:(double)value minimumValue:(double)minimumValue maximumValue:(double)maximumValue stepValue:(double)stepValue normalBackgroundImage:(UIImage *)nImage normalDividerImage:(UIImage *)nDividerImage normalIncrementImage:(UIImage *)nIncrementImage normalDecrementImage:(UIImage *)nDecrementImage otherStylesCall:(void (^)(UIStepper * _Nonnull))call {
     return [UIStepper es_createWithFrame:CGRectZero continuous:continuous autorepeat:autorepeat wraps:wraps value:value minimumValue:minimumValue maximumValue:maximumValue stepValue:stepValue normalBackgroundImage:nImage normalDividerImage:nDividerImage normalIncrementImage:nIncrementImage normalDecrementImage:nDecrementImage otherStylesCall:call];
 }
 
