@@ -21,3 +21,6 @@
 #import "UISlider+ESConstructor.h"
 #import "UIStepper+ESConstructor.h"
 #import "UISwitch+ESConstructor.h"
+
+#import "UIColor+ESUtilities.h"
+#import "UIFont+ESUtilities.h"
