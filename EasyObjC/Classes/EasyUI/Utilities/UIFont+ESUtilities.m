@@ -29,4 +29,24 @@
     return [UIFont fontWithName:@"PingFangTC-Semibold" size:size];
 }
 
++ (UIFont *)es_lightPingFangSCWithSize:(CGFloat)size {
+    return [UIFont fontWithName:@"PingFangSC-Light" size:size];
+}
+
++ (UIFont *)es_regularPingFangSCWithSize:(CGFloat)size {
+    return [UIFont fontWithName:@"PingFangSC-Regular" size:size];
+}
+
++ (UIFont *)es_thinPingFangSCWithSize:(CGFloat)size {
+    return [UIFont fontWithName:@"PingFangSC-Thin" size:size];
+}
+
++ (UIFont *)es_mediumPingFangSCWithSize:(CGFloat)size {
+    return [UIFont fontWithName:@"PingFangSC-Medium" size:size];
+}
+
++ (UIFont *)es_boldPingFangSCWithSize:(CGFloat)size {
+    return [UIFont fontWithName:@"PingFangSC-Semibold" size:size];
+}
+
 @end

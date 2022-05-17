@@ -20,6 +20,16 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIFont *)es_mediumPingFangTCWithSize:(CGFloat)size;
 
 + (UIFont *)es_boldPingFangTCWithSize:(CGFloat)size;
+
++ (UIFont *)es_lightPingFangSCWithSize:(CGFloat)size;
+
++ (UIFont *)es_regularPingFangSCWithSize:(CGFloat)size;
+
++ (UIFont *)es_thinPingFangSCWithSize:(CGFloat)size;
+
++ (UIFont *)es_mediumPingFangSCWithSize:(CGFloat)size;
+
++ (UIFont *)es_boldPingFangSCWithSize:(CGFloat)size;
 @end
 
 NS_ASSUME_NONNULL_END
